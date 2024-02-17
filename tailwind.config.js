@@ -37,7 +37,9 @@ export default {
         bold: '700',
       },
       screens: {
-        'smob': {'min': '321px', 'max': '380px'},
+        sm: {'max': '849px'},
+        md: {'min': '321px', 'max': '380px'},
+        xl: {'min': '381px', 'max': '849px'},
         'laptop': {'min': '850px'},
         'desktop': {'min': '1050px'},
       }
