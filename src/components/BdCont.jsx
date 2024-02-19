@@ -6,11 +6,13 @@ import mobLayoutImg from '../assets/illustration-editor-mobile.svg';
 import Circle from '../assets/bg-pattern-circles.svg';
 import Phone from '../assets/illustration-phones.svg';
 import Footer from './Footer';
+import Hero from './Hero';
 
 function BdCont(){
   return(
-    <div className="w-[100vw] flex flex-col items-center justify-center pt-[100px] mb-[0px] overflow-hidden">
-      <h1 className="text-[28px] text-blue-800 mb-[40px] laptop:mb-[60px] font-medium">Designed for the future</h1>
+    <div className="w-[100vw] min-h-[100vh] flex flex-col items-center justify-center mb-[0px] overflow-hidden">
+      <Hero/>
+      <h1 className="text-[28px] pt-[80px] text-blue-800 mb-[40px] laptop:mb-[60px] font-medium">Designed for the future</h1>
       <Cont 
       heading1="Introducing an extensible editor"
       heading2="Robust content management"
